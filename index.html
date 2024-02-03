@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testando.css">
+    <header class= "titulo"><strong>Calculadora Vertical</strong></header>
+</head>
+<body >
+    <input disabled class="digite"id="campo" placeholder="0">
+    <div class="botoes">
+        <button class="botao"onclick="botao(1)">1</button>
+        <button class="botao"onclick="botao(2)">2</button>
+        <button class="botao"onclick="botao(3)">3</button>
+        <button class="botao"onclick="botao(4)">4</button>
+        <button class="botao"onclick="botao(5)">5</button>
+        <button class="botao"onclick="botao(6)">6</button>
+        <button class="botao"onclick="botao(7)">7</button>
+        <button class="botao"onclick="botao(8)">8</button>
+        <button class="botao"onclick="botao(9)">9</button>
+        <button class="botao"onclick="botao(0)">0</button>
+        <button class="botaoOp"onclick="botaoOperador('+')">+</button>
+        <button class="botaoOp"onclick="botaoOperador('/')">/</button>
+        <button class="botaoOp"onclick="botaoOperador('-')">-</button>
+        <button class="botaoOp"onclick="botaoOperador('x')">*</button>
+        <button class="botaoIgual"onclick="botaoOperador('=')">=</button>
+        <button class="botaoC"onclick="botaoClear()">Clear</button>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+</html>
